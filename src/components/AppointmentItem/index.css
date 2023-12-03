@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.item-container {
+  border: 2px solid #b5b7c4;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 10px 20px;
+}
+
+.name {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.date {
+  color: #9796f0;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+}
+.name-and-date-container {
+  display: flex;
+  justify-content: space-between;
+}
